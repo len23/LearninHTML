@@ -7,3 +7,37 @@ body {
 h1.title {
   text-align: center;
 }
+
+.main {
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+}
+section {
+ margin-top: 60px;
+}
+
+.semantic-content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.second-title {
+  text-align: center;
+}
+
+.semantic-elements {
+  width: 50%;
+  float: left;
+}
+
+.important {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.img-semantics {
+  float: right;
+}
+
