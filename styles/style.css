@@ -12,12 +12,13 @@ h1.title {
 
 /* Main Section */
 .main {
-  width: 75%;
+  width: 1060px;
   margin: auto;
   padding: 20px;
 }
 section {
  margin-top: 60px;
+ margin-bottom: 80px;
 }
 
 .semantic-content::after {
@@ -59,16 +60,54 @@ section {
 
 .abs {
 position: relative;
+margin-bottom: 60px;
 }
 
 .exmaple-code {
   display: inline-block;
   position: absolute;
   top: 24px;
-  left: 254px;
+  left: 194px;
+
+}
+
+.row {
+  width: 100%;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.row >.col, .row > .col-1-of-3{
+  margin-right: 2%;
+}
+
+.row >.col:last-child, .row >.col-1-of-3:last-child{
+  margin-right: 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col {
+  width: 49%;
+  float: left;
+  height: 50px;
+  background-color: rgb(75, 67, 67);
+}
+
+.col-1-of-3 {
+  width: 32%;
+  float: left;
+  height: 50px;
+  background-color: rgb(75, 67, 67);
 }
 
 .footer {
  height: 100px;
+ background-color: black;
+ margin-top: 50px;
 }
 
