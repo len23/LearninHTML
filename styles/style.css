@@ -1,13 +1,16 @@
+/* Generals */
 body {
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
 
+/* Titles */
 h1.title {
   text-align: center;
 }
 
+/* Main Section */
 .main {
   width: 75%;
   margin: auto;
@@ -38,6 +41,34 @@ section {
 }
 
 .img-semantics {
+  margin-left: 5%;
+}
+
+.float-img {
   float: right;
+  width: 20%;
+  padding-left: 47px;
+}
+
+.floats-example {
+  /* content: "";
+  clear: both;
+  display: table; */
+  overflow: auto;
+}
+
+.abs {
+position: relative;
+}
+
+.exmaple-code {
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+  left: 254px;
+}
+
+.footer {
+ height: 100px;
 }
 

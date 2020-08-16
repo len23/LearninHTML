@@ -44,10 +44,33 @@
     <hr>
     <section class="floats">
       <h2 class="second-title">Floating Elements</h2>
+      <p>In the beginning this floats were ised for positioning images inside a <code>&lt;p&gt;</code>element, like this:</p>
+       <p class="floats-example"><img class="float-img"src="./images/pineapple.jpg" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque laboriosam qui ea alias quam error voluptas possimus incidunt, consequatur et nobis laudantium minima dolore facilis eos, beatae dolorum quaerat necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. At animi dolorem minima saepe, ipsam soluta. Aliquid sunt eligendi accusantium aspernatur assumenda voluptas asperiores, dolores fuga suscipit voluptatem, quam nihil maxime? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita commodi sunt atque omnis molestias, reiciendis architecto nostrum tenetur animi dolor quos a maxime maiores saepe, nihil voluptatum sapiente suscipit ipsa. </p>
+       <p>Clear instead don't allows put floats in it's sides, the values that clear allows are:
+       </p>
+       <ul>
+        <li>none</li>
+        <li>left</li>
+        <li>right</li>
+        <li>both</li>
+        <li>inherit</li>
+      </ul>
+      <h3>The clearfix Hack</h3>
+      <p class="abs">If an element is taller than the element containing it, and it is floated, it will "overflow" outside of its container. So, we can add overflow: auto; to the containing element to fix this problem:
+        <code class="exmaple-code">
+          .clearfix {<br>
+            overflow: auto;<br>
+          }<br>
+        </code>
+      </p>
+
     </section>
+
   </main>
    
+  <footer class="footer">
 
+  </footer>
     
   <script src="./js/app.js"></script>
 </body>
